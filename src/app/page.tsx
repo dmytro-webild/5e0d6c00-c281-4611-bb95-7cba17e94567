@@ -70,6 +70,7 @@ export default function LandingPage() {
             description="The core principles that drive our relocation operations."
             animationType="slide-up"
             textboxLayout="split"
+            useInvertedBackground={false}
             features={[
               { id: "1", title: "Secure Transport", subtitle: "Safety first", category: "Logistics", value: "Guaranteed" },
               { id: "2", title: "Expert Packing", subtitle: "Zero damage", category: "Services", value: "Precision" },
@@ -84,6 +85,7 @@ export default function LandingPage() {
             description="Our performance in numbers."
             animationType="slide-up"
             textboxLayout="default"
+            useInvertedBackground={false}
             metrics={[
               { id: "m1", icon: Users, title: "Happy Clients", value: "5,000+" },
               { id: "m2", icon: Package, title: "Moves Completed", value: "12,000" },
@@ -97,7 +99,7 @@ export default function LandingPage() {
             title="Client Stories"
             description="Real experiences from real people."
             textboxLayout="split"
-            animationType="slide-up"
+            useInvertedBackground={false}
             testimonials={[
               { id: "t1", name: "Alex P.", date: "2024", title: "Smooth Move", quote: "Professional, fast, and incredibly reliable.", tag: "Customer", avatarSrc: "https://i.pravatar.cc/150?u=1" }
             ]}
@@ -109,6 +111,7 @@ export default function LandingPage() {
             sideTitle="Frequently Asked Questions"
             sideDescription="Need more information? We are here to help."
             faqsAnimation="slide-up"
+            useInvertedBackground={false}
             faqs={[
               { id: "q1", title: "What makes us different?", content: "Our technology-driven approach ensures precision at every step." },
               { id: "q2", title: "Is insurance included?", content: "Yes, all our moves are fully insured for your protection." }
@@ -122,6 +125,7 @@ export default function LandingPage() {
             title="Schedule Your Move"
             description="Fill in your details and we'll reach out with a custom quote."
             background={{ variant: "sparkles-gradient" }}
+            useInvertedBackground={false}
             imageSrc="http://img.b2bpic.net/free-photo/young-couple-moving-new-home-together-african-american-couple-with-cardboard-boxes_1157-40330.jpg"
           />
         </div>
